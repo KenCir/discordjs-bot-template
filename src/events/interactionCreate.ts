@@ -1,4 +1,3 @@
-import { URL } from 'node:url';
 import { Events } from 'discord.js';
 import { loadCommands } from '../util/loaders.js';
 import type { Event } from './index.js';
