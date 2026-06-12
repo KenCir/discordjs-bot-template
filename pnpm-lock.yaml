@@ -20,6 +20,9 @@ importers:
       zlib-sync:
         specifier: ^0.1.10
         version: 0.1.10
+      zod:
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@sapphire/ts-config':
         specifier: ^5.0.3
@@ -45,9 +48,6 @@ importers:
       typescript:
         specifier: ~6.0.3
         version: 6.0.3
-      zod:
-        specifier: ^4.4.3
-        version: 4.4.3
 
 packages:
 
