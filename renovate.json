@@ -30,6 +30,14 @@
 			"matchUpdateTypes": ["patch"],
 			"groupName": "github-actions patch updates",
 			"groupSlug": "gha-patch"
+		},
+		{
+			"matchDatasources": ["docker"],
+			"addLabels": ["docker"]
+		},
+		{
+			"matchPackageNames": ["ghcr.io/kencir/*"],
+			"enabled": false
 		}
 	],
 	"vulnerabilityAlerts": {
